@@ -8,7 +8,7 @@
  */
 abstract class AbstractCondition implements ICondition {
 
-    private bool $inverted;
+    protected bool $inverted;
 
     /**
      * Default condition constructor.
